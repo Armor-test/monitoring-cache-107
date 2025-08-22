@@ -1,0 +1,37 @@
+# CODEOWNERS file for monitoring-cache-107
+# Global owners - will be requested for all PRs
+* @Armor-test/squad-frontend @Armor-test/team-logging @Armor-test/dept-release
+
+# Directory ownership
+/middleware/ @Armor-test/squad-api @Armor-test/dept-ui @Armor-test/squad-payments
+/web/ @Armor-test/squad-performance @Armor-test/squad-search
+/lib/ @Armor-test/squad-api @Armor-test/unit-governance @Armor-test/team-governance
+/static/ @Armor-test/squad-product @Armor-test/dept-reporting @Armor-test/squad-qa
+/app/ @Armor-test/squad-product @Armor-test/squad-ml @Armor-test/squad-reporting
+/examples/ @Armor-test/squad-ux @Armor-test/dept-release
+/auth/ @Armor-test/grp-reporting @Armor-test/grp-storage
+/internal/ @Armor-test/squad-payments @Armor-test/unit-cloud
+/components/ @Armor-test/dept-identity @Armor-test/team-core @Armor-test/squad-api
+/ui/ @Armor-test/squad-reporting @Armor-test/unit-design @Armor-test/unit-governance
+/test/ @Armor-test/dept-billing @Armor-test/dept-reporting
+
+# File type ownership
+*.scss @Armor-test/unit-cloud @Armor-test/squad-database @Armor-test/squad-api
+*.yml @Armor-test/grp-api @Armor-test/grp-reporting
+*.go @Armor-test/squad-product @Armor-test/dept-automation @Armor-test/dept-notifications
+*.scala @Armor-test/dept-automation @Armor-test/squad-ux
+*.cs @Armor-test/squad-frontend @Armor-test/grp-search @Armor-test/dept-notifications
+*.cpp @Armor-test/unit-test @Armor-test/grp-search
+*.html @Armor-test/squad-cache @Armor-test/squad-mobile @Armor-test/dept-notifications
+*.h @Armor-test/team-logging @Armor-test/squad-apps
+*.toml @Armor-test/dept-ui @Armor-test/team-governance @Armor-test/unit-cloud
+*.lock @Armor-test/dept-api @Armor-test/squad-performance @Armor-test/dept-security
+*.css @Armor-test/team-notifications @Armor-test/dept-data @Armor-test/squad-ux
+*.kt @Armor-test/unit-design @Armor-test/squad-qa
+
+# Security and special files
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
